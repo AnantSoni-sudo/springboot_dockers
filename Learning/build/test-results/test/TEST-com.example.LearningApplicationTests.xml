@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.LearningApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-25T03:09:20" hostname="LAPTOP-NHPMOG7S" time="0.647">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.LearningApplicationTests" time="0.647"/>
+  <system-out><![CDATA[08:39:19.324 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.LearningApplicationTests]: LearningApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+08:39:19.424 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.LearningApplication for test class com.example.LearningApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.2)
+
+2024-07-25T08:39:19.814+05:30  INFO 18676 --- [Learning] [    Test worker] com.example.LearningApplicationTests     : Starting LearningApplicationTests using Java 21.0.1 with PID 18676 (started by anant in C:\Users\anant\OneDrive\Desktop\Gradle\Learning)
+2024-07-25T08:39:19.816+05:30  INFO 18676 --- [Learning] [    Test worker] com.example.LearningApplicationTests     : No active profile set, falling back to 1 default profile: "default"
+2024-07-25T08:39:20.864+05:30  INFO 18676 --- [Learning] [    Test worker] com.example.LearningApplicationTests     : Started LearningApplicationTests in 1.271 seconds (process running for 2.391)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\anant\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.18\417558ea01fe9f0e8a94af28b9469d281c4e3984\byte-buddy-agent-1.14.18.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
